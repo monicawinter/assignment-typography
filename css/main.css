@@ -19,7 +19,7 @@ ol {
   font-size: 1.25rem;
   font-family: Arial, sans-serif;
   text-align: left;
-  color: #ccc;
+  color: #fff;
 }
 
 .intro {
@@ -27,11 +27,11 @@ ol {
 }
 
 a {
-  color: red;
+  color: #fff;
 }
 
 a:hover {
-  color: purple
+  color: yellow
 }
 
 p {
@@ -41,6 +41,12 @@ p {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   text-align: left;
+  color: #fff;
+}
+
+em {
+  color: yellow;
+  font-style: italic;
 }
 
 blockquote {
@@ -49,6 +55,7 @@ blockquote {
   font-style: italic;
   font-family: Arial, sans-serif;
   text-align: center;
+  color: #ccc;
 }
 
 .cite {
@@ -61,6 +68,7 @@ figcaption {
   font-style: italic;
   font-family: Arial, sans-serif;
   text-align: left;
+  color: #ccc;
 }
 
 dl {
@@ -70,6 +78,7 @@ dl {
   font-size: 1rem;
   font-family: Arial, sans-serif;
   text-align: left;
+  color: #fff;
 }
 
 dd {
@@ -78,4 +87,5 @@ dd {
   font-style: italic;
   font-family: Arial, sans-serif;
   text-align: left;
+  color: #ccc;
 }
