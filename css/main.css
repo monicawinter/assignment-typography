@@ -1,5 +1,5 @@
 html {
-  background-color: #ccc;
+  background-color: #1e1052;
 }
 
 h1,h2 {
@@ -9,6 +9,7 @@ h1,h2 {
   text-decoration: underline;
   font-family: 'Righteous', cursive;
   text-align: center;
+  color: #fff;
 }
 
 ol {
@@ -18,6 +19,19 @@ ol {
   font-size: 1.25rem;
   font-family: Arial, sans-serif;
   text-align: left;
+  color: #ccc;
+}
+
+.intro {
+  color: yellow;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: purple
 }
 
 p {
@@ -37,6 +51,10 @@ blockquote {
   text-align: center;
 }
 
+.cite {
+  text-align: right;
+}
+
 figcaption {
   font-weight: normal;
   font-size: 1.25rem;
@@ -50,6 +68,14 @@ dl {
   line-height: 1.5;
   padding: 0;
   font-size: 1rem;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+dd {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
   font-family: Arial, sans-serif;
   text-align: left;
 }
