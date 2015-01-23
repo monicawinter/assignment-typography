@@ -4,8 +4,30 @@ html {
 
 h1,h2 {
   font-weight: bold;
-  font-size: 7rem;
+  font-size: 5rem;
   font-style: bold;
   text-decoration: underline;
-  font-family: 'Lobster', cursive;
+  font-family: 'Righteous', cursive;
+}
+
+ol {
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+  font-size: 1.25rem;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: Arial, sans-serif;
+}
+
+blockquote {
+  font-weight: normal;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-family: Arial, sans-serif;
 }
